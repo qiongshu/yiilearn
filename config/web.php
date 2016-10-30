@@ -47,7 +47,16 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'admin' => [
+            'class' => 'app\modules\admin\Admin',
+        ],
+        'appstore' => [
+            'class' =>'app\modules\appstore\appstore',
+        ],
+    ],
     'params' => $params,
+
 ];
 
 if (YII_ENV_DEV) {
